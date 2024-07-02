@@ -1,0 +1,127 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+:root {
+
+    --body-color: #daeaf4;
+    --sidebar-color: #FFF;
+    --primary-color: #50a4ff;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: #50a4ff !important;
+    /*background: #FFF;*/
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #29588a !important;
+    border: none;
+    border-radius: 0;
+    /* margin-bottom: 40px; */
+    /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); */
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+
+.btnGenerar,
+.btnAgregar {
+    background-color: #29588a;
+    color: white;
+}
+
+.factura {
+    table-layout: fixed;
+}
+
+.fact-info>div>h5 {
+    font-weight: bold;
+}
+
+.factura>thead {
+    border-top: solid 3px #000;
+    border-bottom: 3px solid #000;
+}
+
+.factura>thead>tr>th:nth-child(2),
+.factura>tbod>tr>td:nth-child(2) {
+    width: 300px;
+}
+
+.factura>thead>tr>th:nth-child(n+3) {
+    text-align: right;
+}
+
+.factura>tbody>tr>td:nth-child(n+3) {
+    text-align: right;
+}
+
+.factura>tfoot>tr>th,
+.factura>tfoot>tr>th:nth-child(n+3) {
+    font-size: 18px;
+    text-align: right;
+}
+
+.cond {
+    border-top: solid 2px #000;
+}
